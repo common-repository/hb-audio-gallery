@@ -1,0 +1,64 @@
+.hbag-slider-title p {
+  font-size: 12px !important;
+  font-weight: bold;
+}
+
+.slick-dots {
+    bottom: -60px !important;
+}
+
+.hbag-carousel button.slick-prev {
+  width: 48px;
+  height: 48px;
+  border-color: #000000;
+  position: absolute;
+  top: 50%;
+  margin-top: -31px;
+  border-bottom: 6px solid;
+  border-left: 6px solid;
+  transform: rotate( 45deg );
+  background: none !important;
+  color: #000000 !important;
+  border-radius: 0 !important;
+}   
+
+button.slick-prev::before {
+  display: none !important;
+}
+
+button.slick-next::before {
+  display: none !important;
+}
+
+.hbag-carousel button.slick-next {
+  width: 48px;
+  height: 48px;
+  border-color: #000000;
+  position: absolute;
+  top: 50%;
+  margin-top: -31px;
+  border-bottom: 6px solid;
+  border-left: 6px solid;
+  transform: rotate(-135deg);
+  background: none !important;
+  color: #000000 !important;
+  border-radius: 0 !important;
+}   
+
+.hbag-grid-slider .jp-play img, .hbag-grid-slider .jp-pause img {
+  height: 30px !important;
+  width: auto !important;
+  max-width: none !important;
+}
+
+.hbag-slider .grid-slider-controls a {
+  font: 0/0 caption !important;
+  vertical-align: middle;
+}
+
+.hbag-slider li.jp-mute object, .hbag-slider li.jp-unmute object {
+  max-width: 18px !important;
+}
+.hbag-slider .hbag-vol-bar {
+  padding: 5px 0px;
+}

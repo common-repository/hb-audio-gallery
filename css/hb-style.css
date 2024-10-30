@@ -1,0 +1,505 @@
+img {
+    outline: none !important;
+}
+
+/* a {
+    background: none !important;
+    transition: none !important;
+}
+ */
+
+
+.hb-update-message {
+    background: url("hb-update-bk.png") repeat-x;
+    border: 3px solid #f7c7eb;
+    border-radius: 10px;
+
+    padding: 10px 20px;
+    margin: 10px auto 10px 10px;
+
+    font-size: 18px;
+    font-weight: bolder;
+    color: #fde2fd;
+    line-height: 30px;
+}
+
+.hb-update-message p{
+    margin: 0;
+}
+
+#at20mc {
+    display: none;
+}
+
+/***************** audio-list-in-gallery *******************/
+.hbag-gallery.title_image_wrapper {
+    background-color: #57a4ff !important;
+    padding: 8px !important;
+    margin: 0px 20px !important;
+}
+
+/*.hbag-content.right_content {
+    width: 98% !important;
+    text-align: -webkit-center;
+    margin: 0px 20px !important;
+    float: none !important;
+}*/
+
+/*.title_image_wrapper {
+    background: none;
+    background-color: #fff !important;
+    border-radius: 0px !important;
+    -webkit-border-radius: 0px !important;
+    margin: 0px 20px !important;
+}*/
+
+.hbgallery_image {
+    border: 0px !important;
+}
+
+/*.right_content {
+    background-color: #57a4ff !important;
+}*/
+
+/*.hbgallery_title h3 {
+    font-size: 24px !important;
+    border: 0px !important;
+    color: #ffffff !important;
+}*/
+
+.hbgallery_artist {
+    font-size: 14px !important
+}
+
+/*.jp-audio .jp-type-playlist .jp-interface {
+    background: none;
+    background-color: #fff !important;
+    margin: 16px 20px !important;
+    border-radius: 0px !important;
+    -webkit-border-radius: 0px !important
+}*/
+/*
+.audio-strip {
+    width: 57% !important;
+    float: right !important;
+    padding-top: 40px;
+}*/
+
+/*.jp-type-playlist .jp-playlist li.jp-playlist-current, .jp-type-playlist .jp-playlist li:hover {
+    list-style-type: none;
+    list-style-position: inside;
+    background: #3fb5ff !important;
+    font-weight: bold !important;
+    color: #ffffff !important;
+}*/
+
+/*.jp-type-playlist .jp-playlist li.jp-playlist-current, .jp-type-playlist .jp-playlist li {
+    border-radius: 0px !important;
+    -webkit-border-radius: 0px !important;
+    height: 45px;
+    border-color: #3fb5ff !important;
+}*/
+
+.jp-type-playlist .jp-playlist li, .jp-type-single .jp-title li {
+    background: #ffffff !important;
+}
+
+/*.jp-playlist-item-remove, .jp-playlist-item {
+    font-size: 12px !important;
+}
+
+.jp-type-playlist .jp-playlist a {
+    font-weight: bold !important;
+}*/
+
+.jp-interface ul.jp-controls li {
+    margin: 0 3px !important;
+}    
+
+/***************** Single-Column-list-view *******************/
+/* .post-thumbnail, .entry-content .wp-audio-shortcode, .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce), *[class*=inner-container] > *:not(.entry-content):not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce), .default-max-width {
+    max-width: 100% !important;
+    /*margin: 0px 20px !important;
+} */
+
+/*.hbag-single .jp-interface .image {
+    float: left;
+    width: 30%;
+    padding: 2%;
+    text-align: center;
+}*/
+
+/*.hbag-single .jp-interface .play-section {
+    float: right;
+    width: 70%;
+}*/
+
+/*.hbag-single .jp-interface .hbag-image {
+    height: 200px !important;  
+}
+*/
+/*div.jp-title, div.jp-playlist {
+    padding: 2% !important;
+    background: none;
+    background-color: #ffffff !important;
+    margin: 16px 20px !important;
+    border-radius: 0px !important;
+    -webkit-border-radius: 0px !important;
+}*/
+
+.hbag-single .jp-interface ul.jp-controls {
+    margin: 2% 2% !important;
+}
+
+.jp-audio div.jp-progress {
+    max-width: 96% !important;
+    margin: 0% 2% !important;
+    height: 10px !important;
+}
+
+/***************** Single-Column-grid *******************/
+.single-player .hbag-single {
+    text-align: center;
+}
+
+/*.hbag-single .jp-interface {
+    background: #fff !important;
+    border-radius: 0px 0px !important;
+    padding: 0px 0px !important;
+}*/
+
+.hbag-single .jp-interface .hbag-image-center  {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.hbag-single .jp-interface ul.jp-controls {
+    width: 92% !important;
+}
+
+/* .hb-volume_bar .jp-volume-bar {
+    margin-top: -6% !important;
+    position: absolute;
+    right: 3%;
+} */
+
+/*.hbag-single .jp-title {
+    width: 100% !important;
+    font-size: 16px !important;
+    background: #fff !important;
+    border-radius: 0px !important;
+    margin: 0px 0px !important;
+}*/
+
+/*.hbag-single .jp-title p {
+    color: #fff !important;
+    font-weight: 400 ;
+    background: #57a4ff !important;
+    width: 100% !important;
+    padding: 2% 2% !important;
+    text-align: center !important;
+}*/
+
+/*.hbag-single .jp-title .hbgallery_artist {
+    font-size: 12px !important;
+    font-weight: normal !important;
+}
+*/
+/***************** grid-column *******************/
+.post-thumbnail, .entry-content .wp-audio-shortcode, .entry-content .inner-container .grid-row, .hbag-row {
+    max-width: 100% !important;
+    margin: 0px 20px !important;
+}
+
+.grid-row .flex-container .grid-column {
+    width: 100% !important;
+}
+
+.flex-container .hbag-single  {
+    display: flex !important;
+    width: 33.33% !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*.hbag-single .jp-interface {
+    background: #fff !important;
+    border-radius: 0px 0px !important;
+    padding: 0px 0px !important;
+}*/
+
+.hbag-single .jp-interface .hbag-image-center  {
+    text-align: -webkit-center;
+    padding-top: 5px;
+}
+
+.hbag-single .jp-interface ul.jp-controls {
+    width: 96% !important;
+}
+
+/* .hb-volume_bar .jp-volume-bar {
+    margin-top: -5% !important;
+    position: absolute;
+    right: 3%;
+} */
+
+/*.hbag-single .jp-title {
+    width: 100% !important;
+    font-size: 11px !important;
+    background: #fff !important;
+    border-radius: 0px !important;
+    margin: 0px 0px !important;
+}
+*/
+/*.hbag-single .jp-title p {
+    color: #fff !important;
+    font-weight: 400 ;
+    background: #57a4ff !important;
+    width: 100% !important;
+    padding: 1% 2% !important;
+    text-align: center !important;
+    margin: 0px !important;
+}
+*/
+/*.hbag-single .jp-title .hbgallery_artist {
+    font-size: 9px !important;
+    font-weight: normal !important;
+    margin: 0px !important;
+}*/
+@media only screen and (max-width: 1024px) {
+    .hbag-single .jp-title p {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .jp-interface ul.jp-controls li {
+        display: inline-block;
+        padding: 0;
+        background: none;
+        margin: 0 1%
+    }
+
+    .hb-volume_bar .jp-volume-bar {
+        margin-top: -6% !important;
+        position: absolute;
+        right: 3%;
+    }
+
+    .hbag-single .jp-title {
+        font-size: 12px !important
+    } 
+}
+
+@media only screen and (max-width: 540px) {
+    .flex-container .hbag-single  {
+        display: flex !important;
+        width: 100.33% !important;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .hbag-single .jp-interface .image {
+        float: left;
+        width: 100%;
+        padding: 2%;
+        text-align: -webkit-center;
+    }
+    
+    .hbag-single .jp-interface .play-section {
+        float: right;
+        width: 100%;
+    }
+
+    .hbag-gallery.title_image_wrapper {
+        background-color: #57a4ff !important;
+        padding: 8px !important;
+        margin: 0px 0px !important;
+    }
+
+    .title_image_wrapper {
+        margin: 0px 0px !important;
+    }
+
+    .hbag-content.right_content {
+        width: 97% !important;
+    }
+
+   /* .jp-audio .jp-type-playlist .jp-interface {
+        margin: 16px 00px !important;
+    }*/
+
+    div.jp-title, div.jp-playlist {
+        margin: 16px 0px !important;
+    }
+
+    .hb-volume_bar .jp-volume-bar {
+        margin-top: -6% !important;
+        position: absolute;
+        right: 3%;
+    }
+
+    .hbgallery_title h3 {
+        font-size: 18px !important;
+        border: 0px !important;
+    }
+    
+    .hbgallery_artist {
+        font-size: 12px !important
+    }
+
+    .jp-playlist-item-remove, .jp-playlist-item {
+        font-size: 14px !important;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .hb-volume_bar .jp-volume-bar {
+        margin-top: -9% !important;
+        position: absolute;
+        right: 3%;
+    }
+
+    .hbgallery_title h3 {
+        font-size: 16px !important;
+        border: 0px !important;
+    }
+
+    .hbag-content.right_content {
+        width: 95% !important;
+    }
+
+    .hbgallery_artist {
+        font-size: 10px !important
+    }
+
+    .jp-playlist-item-remove, .jp-playlist-item {
+        font-size: 12px !important;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .jp-type-playlist .jp-playlist a {
+        font-weight: bold !important;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .hb-volume_bar .jp-volume-bar {
+        margin-top: -14% !important;
+        position: absolute;
+        right: 3%;
+    }
+
+    .jp-type-playlist .jp-playlist a {
+        font-weight: bold !important;
+        width: 58% !important;
+        padding-top: 8px !important;
+    }
+}
+
+/*******favourite icon css**********/
+/*.hbag-playslist-flex {
+    display: flex !important;
+}*/
+/* .hbag-fav {
+    order: -1;
+}
+.sharing_btn {
+    margin-left: auto;
+    /* width: 100px; 
+}*/
+
+/* div.jp-type-playlist div.jp-playlist li, .jp-type-single div.jp-title li {
+    padding: 0px 12px !important;
+    cursor: pointer;
+} */
+
+/*.sharing_btn,.hbag-fav {
+    position: relative;
+    bottom: 7px;
+}*/
+
+/* .site .button:not(:hover):not(:active):not(.has-background), button:not(:hover):not(:active):not(.has-background), input[type=submit]:not(:hover):not(:active):not(.has-background), input[type=reset]:not(:hover):not(:active):not(.has-background), .wp-block-search .wp-block-search__button:not(:hover):not(:active):not(.has-background), .wp-block-button .wp-block-button__link:not(:hover):not(:active):not(.has-background), .wp-block-file a.wp-block-file__button:not(:hover):not(:active):not(.has-background) {
+    background-color: transparent !important;
+} */
+
+.slick-dots li button:before {
+    font-size: 15px !important;
+}
+
+.hb-volume_bar .jp-volume-bar {
+    margin-top: 0 !important;
+    position: relative !important;
+    right: 0px !important;
+}
+
+
+.get-in-touch {
+	padding: 20px;
+    border-radius: 20px;
+}
+
+.already-bought {
+	padding: 20px;
+    border-radius: 20px;
+    background-image: url("https://hb-audio-gallery.hbwebsol.com/wp-content/uploads/2021/11/add-to-cart-bg.png");
+}
+
+.add-to-cart {
+    background-color: #ffffff !important;
+    border-radius: 35px;
+    border: solid 2px #80c2f4;
+}
+
+aside .add-to-cart {
+    background-color: #2076b3 !important;
+    border-radius: 35px;
+}
+
+.cross-price-sec {
+    margin-left:5px !important;
+}
+
+/**/
+.hbag-song-title {
+    height: 30px;
+}
+
+.hbag-song-title.hbag-limit-size {
+    width: max-content;
+    height: 100;
+}
+
+.hbag-song-title.hbag-limit-size h3 {
+    font-size: 20px;
+}
+
+.hbag-audio-image {
+    order: 0;
+    width: 48px;
+    height: 48px;
+    margin-right: 15px;
+}
+
+.hbag-fav > a {
+    outline: none !important;
+}
+
+.hbag-buttons-wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hbag-buttons-wrapper .hbag-fav {
+    margin-left: inherit;
+}
+
+.hbag-buttons-wrapper .optionbtn {
+    vertical-align: bottom !important;
+}
+
+.banner-percent {
+   border-radius: 10px;
+}

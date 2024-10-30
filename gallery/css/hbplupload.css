@@ -1,0 +1,50 @@
+.filelist {
+    width: 60%;
+}
+.filelist .file {
+    padding: 5px;
+    background: #ececec;
+    border: solid 1px #ccc;
+    margin-bottom: 4px;
+}
+.filelist .fileprogress {
+    width: 0%;
+    background: #B7C53D;
+    height: 5px;
+}
+.plupload-thumbs {
+
+}
+.plupload-thumbs .thumb {
+    width: 50px;
+    padding-right: 5px;
+    float: left;
+}
+.plupload-thumbs .thumb img {
+    width: 50px;
+    height: 50px;
+}
+.ui-sortable  .thumb img {
+    cursor: pointer;
+}
+
+.edit-icon{
+    position: absolute;
+    height: 12px;
+    top: 1px;
+    left: 51px;
+    opacity:0;
+}
+
+.editLink:hover .edit-icon{opacity:1;}
+
+.thumbnail {
+    max-width: 63px !important;
+    border: none;
+    box-shadow: none;
+    display: inline;
+}
+
+.img-relative{
+    position: relative;
+}

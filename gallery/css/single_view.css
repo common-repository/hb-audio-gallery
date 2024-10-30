@@ -1,0 +1,493 @@
+.hbag-single-list a img {
+   padding: 0;
+}
+
+div.jp-interface { 
+
+    width: 100% !important;
+
+}
+
+
+div.jp-title, div.jp-playlist {
+
+   width: 100%;
+
+}
+
+
+
+/* .hbgallery_image {
+
+    width: 100%;
+
+} */
+
+
+
+.hbag-single-list .jp-interface {
+
+    background: #3c4a73 !important;
+
+    border-radius: 20px !important;
+
+    padding: 0px 0px !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+.hbag-single-list .jp-interface .image img {
+
+    padding: 20px;
+
+    float: left;
+
+    width: auto !important;
+
+    border-radius: 30px;
+
+}
+
+
+
+.hbag-single-list .jp-title {
+
+    font-size: 20px !important;
+
+    padding: 0px;
+
+    color: #ffffff;
+
+    background: none;
+
+}
+
+
+
+.hbag-single-list .jp-interface .play-section {
+
+    float: right;
+
+    width: 68%;
+
+    padding-top: 15px;
+
+}
+
+.hbag-single-list .jp-controls {
+
+    margin: 2% 2% !important;
+
+}
+
+.hbag-single-list .hbag-vol-bar {
+
+   width: 20%;
+
+   background: #ffffff;
+
+   border-radius: 20px;
+
+   display: flex;
+
+   align-items: center;
+
+   justify-content: space-evenly;
+
+   float: right;
+
+   padding: 8px 0px;
+
+}
+
+
+
+.hbag-single-list .hbag-vol-bar li.jp-mute, .hbag-single-list .hbag-vol-bar li.jp-unmute, .hbag-single-list .hbag-vol-bar li.jp-volume-max {
+
+   width: 18px !important;
+
+   font-size: 0;
+
+}
+
+
+
+.hbag-single-list li.jp-play, .hbag-single-list li.jp-pause, .hbag-single-list li.jp-previous, .hbag-single-list li.jp-next {
+
+    float: left;
+
+    width: auto !important;
+
+}
+
+
+
+ .hbag-vol-bar img {
+
+   height: 20px !important;
+
+}
+
+div.jp-interface ul.jp-controls li img { 
+   padding-bottom: 0 !important;
+}
+
+.hbag-single-list .jp-time-holder-grid-slider {
+
+    float: none !important;
+
+    color: #ffffff !important;
+
+}
+
+
+
+.hbag-single-list .hbgallery_artist {
+
+    font-size: 14px !important;
+
+}
+
+.play-list p {
+   margin: 5px 0px !important;
+}
+
+.play-section h3 {
+   /* margin-top: 18px !important;
+   margin-bottom: 0px !important; */
+   font-size: 20px;
+   padding-left: 10px;
+}
+
+.single-image {
+    width: 290px !important;
+}
+
+@media only screen and (max-width: 1366px) {
+
+ .hbag-single-list .jp-interface .play-section {
+
+    width: 68%;
+
+ }
+
+ .hbw_grid_container {
+
+    margin: 0px !important;
+
+ }
+
+ .hbag-grid-slider .jp-title p {
+
+    font-size: 15px;
+
+  }
+
+  .slick-slider button.slick-prev {
+   width: 40px;
+
+   height: 40px;
+
+  }
+
+  .slick-slider button.slick-next {
+    width: 40px;
+
+    height: 40px;
+
+   }
+
+}
+
+@media only screen and (max-width: 1280px) {
+
+ .hbag-single-list .jp-interface .play-section {
+
+    width: 65%;
+
+ }
+
+ .hbag-single-list .hbag-vol-bar {
+
+    width: 28%;
+
+ }
+
+  .hbag-single-list li.jp-play, .hbag-single-list li.jp-pause, .hbag-single-list li.jp-previous, .hbag-single-list li.jp-next {
+
+    width: 6% !important;
+
+ }
+ .hbag-fav-list .hbag-vol-bar {
+   width: 20% !important;
+ }
+
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+
+ .hbag-single-list .hbag-vol-bar {
+
+    width: 20%;
+
+ }
+
+ .hbag-single-list .jp-interface .play-section {
+
+   width: 70%;
+   padding: 10px 0px;
+
+ }  
+
+ .hbag-single-list .jp-title {
+
+    font-size: 15px !important;
+
+ }
+
+  .hbw_grid_container {
+
+    margin: 0px !important;
+
+ }
+
+}
+
+
+
+@media only screen and (max-width: 968px) {
+
+ .hbag-single-list .hbag-vol-bar {
+
+    width: 40%;
+
+ }
+
+ .hbag-single-list .jp-interface .image img {
+
+    width: 100% !important;
+    max-width: 100% !important;
+
+ }
+
+ .hbag-grid-slider .hbag-vol-bar {
+
+    width: 45%;
+
+ }
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+  .hbw_container {
+
+    margin: 0px !important;
+
+ }
+
+ .hbag-single-list .hbag-vol-bar {
+
+    width: 30%;
+
+  }
+
+  .hbag-single-list li.jp-play, .hbag-single-list li.jp-pause, .hbag-single-list li.jp-previous, .hbag-single-list li.jp-next {
+
+    width: 8% !important;
+
+  }
+  .hbag-single-list .jp-interface .play-section {
+   width: 68%;
+  }
+
+  .play-section h3 {
+   margin-top: 10px !important;
+   margin-bottom: 5px !important;
+   font-size: 16px;
+   padding-left: 0px;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 660px) {
+
+ .play-section h3 {
+    text-align: center;
+    font-size: 20px;
+ }
+   
+ .hbgallery_image {
+    width: 100% !important;
+ }
+
+  .hbag-single-list {
+
+    padding-top: 0px !important;
+
+    padding-bottom: 0px !important;
+
+ }
+
+  .hbag-playlist {
+
+    padding-top: 0px !important;
+
+    padding-bottom: 0px !important;
+
+  }
+
+  .hbag_my_fav_audio .hbag-single-list .jp-interface {
+
+    margin-bottom: 0px;
+
+  }
+
+  .hbag-image-center img {
+
+    min-height: 250px;
+
+    max-height: 250px;
+
+  }
+
+  .slick-slider button.slick-arrow {
+
+    display: none !important;
+
+   }
+   .hbag-single-list .jp-interface {
+      display: inherit;
+   }
+
+   .hbag-single-list .jp-interface .play-section {
+
+      width: 100%;
+  
+      padding: 0px 10px 20px 10px;
+  
+   }
+   .hbag-list-playlist .jp-playlist a.jp-playlist-item {
+      width: 40%;
+   }
+
+}
+
+@media only screen and (max-width: 540px) {
+  .sharing_btn {
+     width: 10%;
+  }
+  .hbag-fav a {
+     width: 100% !important;
+  }
+  .hbgallery_artist {
+     display: none;
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+
+ .hbag-playlist .sharing_btn img {
+
+    padding: 2px;
+
+ }
+
+ .hbag-single-list .hbag-vol-bar {
+
+    width: 35%;
+
+ }
+
+ /* .sharing_btn {
+
+    width: 100% !important;
+
+ } */
+ .hbag-grid-slider .hbag-vol-bar {
+   width: 44%;
+ }
+
+ .hbag-fav-list .hbag-vol-bar {
+   width: 30% !important;
+ }
+
+ .play-section .hbag-song-title h3 {
+   text-align: left;
+    font-size: 15px;
+    margin-left: 12px;
+  }
+}
+
+
+
+@media only screen and (max-width: 411px) {
+
+ /* .sharing_btn {
+
+    width: 43% !important;
+
+ } */
+
+ .sharing_btn a {
+    margin-right: 0px !important;
+ }
+
+ .hbag-list-playlist .jp-playlist a.jp-playlist-item {
+
+   width: 56% !important;
+
+   font-size: 12px !important;
+
+ }
+
+}
+@media only screen and (max-width: 320px) {
+ .options img.optionbtn {
+   padding: 0px !important;
+ }
+} 
+
+aside .hbgallery_image {
+   width: 100%;
+}
+
+aside .hbag-single-list .jp-interface {
+   flex-direction: column;
+}
+
+aside .hbag-single-list .jp-interface .play-section {
+   width: 100%;
+}
+
+aside .hbag-single-list li.jp-play, aside .hbag-single-list li.jp-pause, aside .hbag-single-list li.jp-previous, aside .hbag-single-list li.jp-next {
+   width: 8% !important;
+   padding: 0px !important;
+}
+
+aside .hbag-single-list .hbag-vol-bar {
+   width: 35% !important;
+}
+
+aside .hbag-single-list .hbag-vol-bar li.jp-mute, aside .hbag-single-list .hbag-vol-bar li.jp-unmute, aside .hbag-single-list .hbag-vol-bar li.jp-volume-max {
+   padding: 0px !important;
+}
+
+aside .hb-volume_bar {
+   padding: 0px !important;
+}
+
+aside li::after {
+   display: none !important;
+}

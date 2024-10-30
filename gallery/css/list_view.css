@@ -1,0 +1,451 @@
+object {
+    vertical-align: middle !important;
+    pointer-events: none;
+}
+
+.title_image_wrapper {
+
+	margin: 0 !important;
+
+	padding: 0 !important;
+
+	background: none !important;
+
+	width: 100%;
+
+}
+
+
+
+.hbgallery_image {
+
+    float: none !important;
+
+}
+
+
+
+.hbgallery_title h3 {
+
+	text-align: center;
+
+    border-bottom: none !important;
+
+}
+
+
+
+.hbgallery_artist {
+
+	text-align: center;
+
+}
+
+
+
+.hbag-playlist .jp-playlist {
+
+	background: #ffffff !important;
+
+}
+
+
+
+/* .hbag-list-playlist .jp-playlist li:hover {
+    color: #ffffff !important;
+
+} */
+
+
+
+/* .hbag-list-playlist .jp-playlist li {
+
+	border-color: #3c4a73 !important;
+
+	border-radius: 5px !important;
+
+	width: 100% !important;
+
+	margin-bottom: 20px !important;
+
+} */
+
+
+
+/* .hbag-list-playlist li.jp-playlist-current {
+
+	background: #3c4a73 !important;
+
+	color: #000000 !important;
+
+} */
+
+
+
+/* .sharing_btn, .hbag-fav {
+
+    position: relative;
+
+    bottom: 3px;
+
+} */
+
+.sharing_btn {
+    order: 4;
+    visibility: hidden;
+}
+
+.hbag-fav {
+    order: 3;
+    visibility: hidden;
+    margin-left: auto;
+}
+
+.hbag-list-playlist .jp-playlist li:hover .hbag-fav, .hbag-list-playlist .jp-playlist li:hover .sharing_btn {
+    visibility: visible;
+}
+
+.hbag-playslist-flex a {
+    order: 1;
+    text-decoration: none !important;
+}
+
+
+.hbag-playslist-flex {
+
+    display: flex !important;
+
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+
+.hbag-list-playlist .jp-playlist a.jp-playlist-item {
+
+    color: #000000;
+
+    font-size: 13px !important;
+
+    font-weight: bold !important;
+
+    width: 50%;
+
+}
+.hbag-list-playlist .jp-playlist-current a.jp-playlist-item {
+    color: #000000 !important;
+}
+    
+div.jp-type-playlist div.jp-playlist li.jp-playlist-current:hover a, div.jp-type-playlist div.jp-playlist li.jp-playlist-current:hover .hbag-time-duration span {
+    color: #ffffff !important;
+}
+
+a.jp-shuffle {
+
+    background: url(../images/shuffle.svg) no-repeat !important;
+
+    width: 20px !important;
+
+    height: 20px !important;
+
+    position: relative;
+
+    top: -27px;
+
+    margin: 0;
+
+}
+
+
+
+a.jp-shuffle-off {
+
+    background: url(../images/shuffle-off.svg) no-repeat !important;
+
+    width: 20px !important;
+
+    height: 20px !important;
+
+    position: relative;
+
+    top: -27px;
+
+    right: 5px;
+
+    margin: 0;
+
+}
+
+
+
+/* .hbag-playlist .sharing_btn img {
+
+    padding: 4px;
+
+    background-color: #ffffff;
+
+    border-radius: 5px;
+
+} */
+
+aside .hbag-fav img {
+    vertical-align: middle !important;
+}
+
+aside .play-section ul.jp-toggles li {
+  padding: 0px !important;
+}
+
+aside .hbgallery_artist {
+    padding-bottom: 12px;
+}
+
+aside .hbag-list-playlist .jp-playlist a.jp-playlist-item:hover {
+    color: #ffffff !important;
+}
+
+
+
+/*****my favorite gallery list*****/
+
+
+
+.hbag-my-gallery .title_my_gallery_image_wrapper {
+
+   background-color: #ffffff !important;
+
+   padding: 8px !important;
+
+   border-radius: 0;
+
+   margin-bottom: 18px;
+
+}
+
+
+
+.hbag-content.right_content {
+
+    width: 100% !important;
+
+    text-align: -webkit-center;
+
+    float: none !important;
+
+    background-color: #031856;
+
+    padding: 5px;
+
+    border-radius: 15px 15px 0px 0px;
+
+    padding: 14px;
+
+    border-bottom: solid #ffffff 1px;
+
+}
+
+
+
+.hbag-my-gallery .hbgallery_title h3 {
+
+    font-size: 24px !important;
+
+    border: 0px !important;
+
+    color: #ffffff !important;
+
+    margin: 0 !important;
+
+    padding: 0 !important;
+
+}
+
+
+
+.hbag_my_fav_audio .hbag-fav-list .jp-interface {
+
+    border-radius: 20px !important;
+
+    margin-bottom: 30px;
+
+}
+
+
+
+.hbag-list-toggle-button {
+
+    width: 20px !important;
+
+    height: 20px !important;
+
+    position: relative;
+
+    top: -27px;
+
+}
+
+
+
+.hbag-list-open {
+
+    background: url('../../images/list-on.svg') no-repeat !important;
+
+}
+
+
+
+.hbag-list-close {
+
+    background: url('../../images/list.svg') no-repeat !important;
+
+}
+
+div.jp-playlist ul.audio-title { 
+    font-size: 26px !important;
+}
+
+.hbag-fav-list .jp-interface {
+    display: inherit !important;
+}
+
+/*sticky player*/
+
+
+
+.hbag-sticky .jp-interface .image img {
+
+    padding: 20px;
+
+    float: left;
+
+    width: 150px !important;
+
+    border-radius: 30px;
+
+}
+
+.hbag-fav object {
+    padding: 0px !important;
+    display: flex !important;
+}
+/* category */
+.hbag-category .jp-interface .image img { 
+    width: auto !important;
+}
+
+/* New List View */
+.hbag-list-playlist .jp-playlist li {
+    border: none !important;
+    border-bottom: 1px solid !important;
+    border-radius: 0px !important;
+    padding: 8px 10px !important;
+    width: 100% !important;
+    margin-bottom: 0px !important;
+}
+
+.hbag-list-playlist .jp-playlist {
+    padding: 0px !important;
+    margin-top: 10px !important;
+}
+
+/* Dropdown Button */
+/* .optionbtn {
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+} */
+
+/* The container <div> - needed to position the dropdown content */
+.options {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.option-content {
+  display: none !important;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  right: 0;
+  bottom: 0;
+  border-radius: 5px;
+}
+
+.option-content span {
+  margin-left: 5px;
+  word-break: normal !important;
+}
+/* Links inside the dropdown */
+.option-content a {
+  color: #000000 !important;
+  padding: 12px 16px !important;
+  text-decoration: none;
+  display: flex !important;
+  font-size: 12px !important;
+  width: auto !important;
+  font-weight: bold;
+}
+
+.option-content img {
+  padding: 0 !important;
+}
+
+.options img.optionbtn {
+    vertical-align: baseline;
+    padding: 0px 10px !important;
+}
+
+aside .options img.optionbtn {
+    vertical-align: middle !important;
+}
+
+/* Change color of dropdown links on hover */
+.option-content a:hover {background-color: #efefef !important; border-radius: 5px;}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+    display:block !important;
+}
+.option-content span{
+    color: #000000 !important;
+}
+
+.hbag-fav a {
+    cursor: pointer;
+    display: block !important;
+    margin-right: 7px;
+}
+
+.hbag-time-duration {
+    order: 5;
+    display: flex !important;
+    width: 70px;
+    justify-content: end;
+}
+
+.hbag-artist {
+    order: 2;
+    display: flex !important;
+}
+
+.hbag-artist span.hbgallery_artist {
+    color: #666666 !important;
+}
+
+
+.hbag-time-duration span, .hbag-artist span {
+    font-size: 12px;
+}
+
+div.jp-type-playlist div.jp-playlist li:hover .hbag-time-duration span, div.jp-type-playlist div.jp-playlist li:hover .hbag-artist span {
+    color: #ffffff !important;
+}
+
+.hbag-song-title h3 {
+    color: #ffffff;;
+}
